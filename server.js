@@ -4,7 +4,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const cors = require('cors');
 require('dotenv').config();
-
+// -------- O_o --------//
 app.use(cors());
 
 const PORT = process.env.PORT || 3002;
