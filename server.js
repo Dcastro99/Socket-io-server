@@ -13,7 +13,8 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://dannys-socket-app.netlify.app',
+    // origin: 'https://dannys-socket-app.netlify.app',
+    origin: 'https:localhost:3000',
     methods: ['GET', 'POST']
   },
 });
